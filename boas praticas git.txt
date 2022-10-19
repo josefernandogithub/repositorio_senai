@@ -1,0 +1,17 @@
+Boas práticas com branchs
+Use e abuse de branchs
+O recurso de branch é fantástico, você pode criar a partir de qualquer uma.
+
+Dicas principais:
+
+Evite gravar diretamente na main.
+Sempre trabalhe em uma branch separada
+Integre sua branch quando finalizar seu trabalho
+Apague sua branch depois que tiver terminado
+Exemplo
+
+$ git branch -u main correcao_criacao_vpc
+$ git checkout correcao_criacao_vpc
+Quando terminar seu ticket, apague a branch
+
+$ git branch -D correcao_criacao_vpc
